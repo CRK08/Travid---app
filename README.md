@@ -134,8 +134,6 @@ We welcome contributions! Please check the issues page.
 
 © 2026 Travid. All rights reserved.
 
-## 👥 Team
-
 - **Developer:** CRK
 - **Designer:** CRK
 
