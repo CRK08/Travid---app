@@ -1,0 +1,120 @@
+name: travid
+description: "Travid - voice-enabled travel assistant"
+publish_to: 'none'
+version: 1.0.1+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Firebase Backend
+  firebase_core: ^3.3.0
+  cloud_firestore: ^5.2.0
+  firebase_auth: ^5.1.0
+  firebase_storage: ^12.1.0
+  firebase_analytics: ^11.2.0
+  firebase_crashlytics: ^4.0.0
+  firebase_messaging: ^15.0.0
+
+  # Voice & TTS
+  speech_to_text: ^7.3.0
+  flutter_tts: ^4.2.3
+  permission_handler: ^12.0.1
+
+  # Maps & Location
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
+  geolocator: ^14.0.2
+  geocoding: ^3.0.0
+  flutter_map_tile_caching: ^10.0.2
+
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.1.1
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.6.2
+
+  # Network & API
+  dio: ^5.7.0
+  connectivity_plus: ^6.1.0
+  cached_network_image: ^3.4.1
+  
+  # AI - Natural Language Understanding
+  google_generative_ai: ^0.4.6  # Gemini AI for smart responses
+
+  # UI/UX (Lightweight)
+  # google_fonts: ^6.2.1          # REMOVED - Use system fonts for performance
+  # flutter_animate: ^4.5.0       # REMOVED - Minimal animations only
+  # introduction_screen: ^3.1.14  # REMOVED - Custom onboarding
+  # shimmer: ^3.0.0               # REMOVED - Not needed for accessibility
+  
+  # Accessibility (Essential)
+  vibration: ^2.0.0               # Haptic feedback for blind users
+  audioplayers: ^6.1.0            # Sound effects for audio feedback
+
+  # Utilities
+  fuzzywuzzy: ^1.2.0
+  intl: ^0.20.2
+  uuid: ^4.5.1
+  equatable: ^2.0.7
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+
+  # Notifications
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.9.4
+
+  # Phone Number
+  country_code_picker: ^3.0.0
+  intl_phone_field: ^3.2.0
+  
+  # Image Handling
+  image_picker: ^1.1.2
+  image_cropper: ^8.0.2
+  
+  # OTP UI
+  pinput: ^5.0.0
+  
+  # Gravatar & Local Storage
+  crypto: ^3.0.3
+  path_provider: ^2.1.0
+  
+  # Other
+  url_launcher: ^6.3.1
+  cupertino_icons: ^1.0.2
+  google_fonts: ^8.0.1
+
+  provider: any
+  path: any
+  audio_session: ^0.2.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  mockito: ^5.4.4
+  build_runner: ^2.4.13
+  freezed: ^2.5.7
+  json_serializable: ^6.8.0
+  integration_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo/icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/logo/

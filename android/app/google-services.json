@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "892442052383",
+    "project_id": "travid-app",
+    "storage_bucket": "travid-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892442052383:android:6e4cc9f479e147c298522a",
+        "android_client_info": {
+          "package_name": "com.example.travid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892442052383-r4has3nbpnf8dfl1odpj1lpi3cfqsdqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCURX4hAdiNQrktjwBGgfeDvdyCyiBeZ7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892442052383-r4has3nbpnf8dfl1odpj1lpi3cfqsdqb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
