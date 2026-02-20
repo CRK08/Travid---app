@@ -117,11 +117,6 @@ lib/
 - Tap-to-Speak Interaction
 - Geolocator
 
-## 📖 Documentation
-
-For detailed technical specifications, control flow diagrams, and internal architecture notes, please refer to:
-- **[Specifications (specs.md)](specs.md)**
-
 ## 🎯 Current Status
 
 **Version:** 1.0.0 (Alpha)
