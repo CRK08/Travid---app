@@ -35,15 +35,11 @@ Travid is an AI-powered, voice-controlled travel assistant app designed for acce
 - Real-time arrival alerts
 - Offline maps support
 
-## 📥 Downloads & APKs
+## 📲 Download APK
 
-Optimized APKs are available for different architectures to reduce download size. These can be found in the `build/app/outputs/flutter-apk/` directory after building.
+Click below to download:
 
-| Architecture | Description | File |
-|--------------|-------------|------|
-| **ARM64** | Most modern Android phones | `app-arm64-v8a-release.apk` |
-| **ARMv7** | Older Android phones | `app-armeabi-v7a-release.apk` |
-| **x86_64** | Emulators / Intel-based devices | `app-x86_64-release.apk` |
+[https://github.com/CRK08/Travid---app/releases/download/v1.0.0/app-arm64-v8a-release.apk]
 
 ## 🚀 Getting Started
 
