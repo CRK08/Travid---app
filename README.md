@@ -7,7 +7,6 @@ Travid is an AI-powered, voice-controlled travel assistant app designed for acce
 ## ✨ Key Features
 
 ### **🎤 Voice Control**
-### **🎤 Voice Control**
 - Tap-to-Speak activation
 - Prominent accessibility-focused UI
 - Natural conversation with AI
@@ -134,8 +133,6 @@ We welcome contributions! Please check the issues page.
 
 © 2026 Travid. All rights reserved.
 
-- **Developer:** CRK
-- **Designer:** CRK
 
 ## 🙏 Acknowledgments
 
