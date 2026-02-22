@@ -49,7 +49,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCURX4hAdiNQrktjwBGgfeDvdyCyiBeZ7g',
+    apiKey: const String.fromEnvironment('FIREBASE_API_KEY', defaultValue: 'YOUR_FIREBASE_API_KEY_HERE'),
     appId: '1:892442052383:android:6e4cc9f479e147c298522a',
     messagingSenderId: '892442052383',
     projectId: 'travid-app',
@@ -57,7 +57,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCURX4hAdiNQrktjwBGgfeDvdyCyiBeZ7g',
+    apiKey: const String.fromEnvironment('FIREBASE_API_KEY', defaultValue: 'YOUR_FIREBASE_API_KEY_HERE'),
     appId: '1:892442052383:web:6e4cc9f479e147c298522a',
     messagingSenderId: '892442052383',
     projectId: 'travid-app',

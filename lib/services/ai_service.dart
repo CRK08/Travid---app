@@ -4,7 +4,7 @@ import 'package:google_generative_ai/google_generative_ai.dart';
 class AIService {
   // ⚠️ REPLACE THIS KEY: Create new key at https://aistudio.google.com/app/apikey
   // IMPORTANT: Select "Create API key in new project" when creating
-  static const String _apiKey = 'AIzaSyBx83ien_F0ypkymhbHP3m1P7m1UEMebtw';
+  static const String _apiKey = const String.fromEnvironment('GEMINI_API_KEY', defaultValue: 'YOUR_GEMINI_API_KEY_HERE');
   late final GenerativeModel _model;
   
   // Singleton pattern

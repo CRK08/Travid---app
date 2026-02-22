@@ -10,7 +10,7 @@ class ModelListScreen extends StatefulWidget {
 }
 
 class _ModelListScreenState extends State<ModelListScreen> {
-  static const String _apiKey = 'AIzaSyAkaAaCgvuusJ7SUv33fHm2iStvi_o3Ldo';
+  static const String _apiKey = const String.fromEnvironment('GEMINI_API_KEY', defaultValue: 'YOUR_GEMINI_API_KEY_HERE');
   List<String> _models = [];
   bool _isLoading = false;
   String _error = '';
